@@ -243,7 +243,8 @@
   background-image: url("../images/3.jpg");
 }
 
-.card__title {position: relative;
+.card__title {
+  position: relative;
   z-index: 1;
   color: #fff;
   font-size: 22px;
