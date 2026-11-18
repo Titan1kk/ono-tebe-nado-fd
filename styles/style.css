@@ -17,6 +17,7 @@
 }
 
 .header__links-list {
+  gap:13px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -127,7 +128,7 @@
   color: #fff;
   font-size: 100px;
   font-weight: 700;
-  letter-spacing: 0.3em;
+  letter-spacing: 0;
   line-height: 1.15;
   text-transform: uppercase;
 }
@@ -192,6 +193,7 @@
 
 .lots__heading {
   margin-bottom: 27px;
+  margin-left: 40px;
   font-size: 40px;
   font-weight: 700;
   line-height: 46px;
@@ -265,6 +267,7 @@
 
 .lots__look-more-link {
   display: inline-block;
+  margin-left: 40px;
   margin-top: 30px;
   font-size: 20px;
   font-weight: 400;
@@ -446,6 +449,7 @@
   }
 
   .lots__card-list {
+    gap: 25px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
